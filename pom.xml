@@ -32,7 +32,7 @@
 					<execution>
 						<id>build-first</id>
 						<configuration>
-							<appendAssemblyId>false</appendAssemblyId>
+							<!-- <appendAssemblyId>false</appendAssemblyId> -->
 							<archive>
 								<manifest>
 									<mainClass>de.crowdcode.maven.App</mainClass>
@@ -54,7 +54,7 @@
 					<execution>
 						<id>build-second</id>
 						<configuration>
-							<appendAssemblyId>false</appendAssemblyId>
+							<!-- <appendAssemblyId>false</appendAssemblyId> -->
 							<archive>
 								<manifest>
 									<mainClass>de.crowdcode.maven.App</mainClass>
